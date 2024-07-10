@@ -1,0 +1,14 @@
+EPOCHS: 100
+LEARNING_RATE: 0.0001
+BATCH_SIZE: 4
+NUM_CLASSES: 3
+IN_CHANNELS: 3
+WORKING_DIR: './Nucleolus/'
+SAVE_DIR: './checkpoints'
+SAVE_CHECKPOINTS: './checkpoints/my_checkpoint.pth'
+MODEL_PATH: './checkpoints/my_checkpoint.pth'
+SAVE_PLOT: './Nucleolus/save_plots/'
+SAVE_PREDICT: './Nucleolus/test_output'
+DEVICE: 'cuda'
+NUM_WORKERS: 1
+
